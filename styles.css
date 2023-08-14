@@ -25,6 +25,8 @@ body {
   cursor: pointer;
   border-radius: 10px;
   width: 100%; /* Added to extend the button to full width */
+  text-decoration: none; /* Added to remove underline from the link */
+  display: inline-block; /* Added for consistent display */
   transition: background-color 0.3s, color 0.3s;
 }
 
