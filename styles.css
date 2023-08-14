@@ -1,0 +1,32 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d0eae5; /* HEX color */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.content {
+  text-align: center;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 20px 40px;
+  font-size: 24px;
+  background-color: #3a4672; /* Button color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: #283147; /* Darker button color on hover */
+}
